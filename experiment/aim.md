@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### To Study the three phase voltage source inverter with 120° & 180° conduction mode.
