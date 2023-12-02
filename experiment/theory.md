@@ -4,7 +4,7 @@
 ### **Introduction**
 
 A three-phase inverter is a type of power electronic device that converts DC (Direct Current) power into AC (Alternating Current) power with three phases. It is widely used in various applications such as motor drives, renewable energy systems, and power transmission. The main function of a three-phase inverter is to control the switching of power electronic devices, typically transistors or IGBTs (Insulated Gate Bipolar Transistors), to generate three-phase AC output voltage. The three-phase inverter consists of six switches, typically arranged in a bridge configuration, and each phase is connected to a load as shown in Figure 1. The switching patterns and timing of the switches determine the shape, magnitude, and frequency of the output voltage.<br>
-<center> <img src="images\Fig 1.PNG " style="-webkit-filter:contrast(150%);"></center>       
+<center> <img src="images\Fig 1.png " style="-webkit-filter:contrast(150%);"></center>       
 <center><b>Fig. 1 Three Phase Inverter Circuit (a) Thyristor (b) IGBTs</b></center>
           
 ### **1. Three Phase 180° Mode Voltage Source Inverter**
@@ -14,14 +14,14 @@ It means that T1 remains on for 180° and T4 conducts for the next 180° of a cy
 It implies that if T1 is fired at &omega;t = 0° then T3 will be fired at 120° and T5 at 240°. Same is also true for lower group thyristors i.e., (T4, T6 & T2).<br>
 On the basis of the above mentioned firing scheme, Below is a figure showing the conduction periods of various thyristors in a three-phase inverter.
  <br>
-<center> <img src="images\Table.PNG " ></center>
+<center> <img src="images\Table.png " ></center>
 <center><b>Fig. 2 Conduction periods of various thyristors in 180° conduction mode</b></center><br>
 
  As we observe from the first row of the above table that T1 conducts for 180° while T4 conducts for next 180° and then again T1 for 180° and so on. In the second row, T3 from the upper group is shown conducting 120° after T1 starts conducting. After T3 conducting for 180°, T6 conducts for the next 180° and again T3 for next 180° and so on. Further, in the third row, T5 from the upper group starts conducting 120° after T3 or 240° after T1. After T5 conduction for 180°, T2 conducts for next 180°, T5 for the next 180° and so on. In this way, the pattern for firing of thyristors are identified.<br>
 
 From the above table, the six steps for firing of thyristors may be formulated. As you can see from the table that, the overlapping period of the three SCRs are only 60°, this is the reason, it is said that each step for a three phase bridge inverter is 60°. Let us now try to define the steps.<br>
 
-<center> <img src="images\Fig 2.PNG "style="height: 550px; width: 650px; -webkit-filter:contrast(140%);"></center>
+<center> <img src="images\Fig 2.png "style="height: 550px; width: 650px; -webkit-filter:contrast(140%);"></center>
 <center><b>Fig. 3 Equivalent circuit for 3-phase VSI 180° mode with balanced star-connected load.</b></center><br>
 
 During Step-I, SCRs 5, 6 & 1 are conducting. These are shown as closed switches and the non-conducting SCRs are shown as open switches. 
@@ -77,7 +77,7 @@ $v_{ao} = 2\frac {V_s}{3} ,  v_{bo} = v_{co} = - \frac {V_s}{3}$
 
 The output voltages as calculated for step-I & II are plotted to get the output voltage waveform of the three phase bridge inverter. 
       The variation in phase voltages for remaining steps are calculated in the same manner and plotted. The output voltage waveform is shown below.
-      <center> <img src="images\Fig 3.PNG " style="width: 650px;"></center>       
+      <center> <img src="images\Fig 3.png " style="width: 650px;"></center>       
       <center><b>Fig. 4 The Voltage waveform for 180° mode 3-phase VSI</b></center> 
 
 From the above waveform, it is clear that for each cycle of output voltage of each phase, six steps are required and each step has a duration of 60°.
@@ -175,8 +175,8 @@ $V_{p1} = \frac {2V_s}{\sqrt 2 \pi} = 0.4502 V_s....(8)$
 In this conduction mode inverter, each thyristor conducts for 120° of a cycle. Like 180° mode, 120° mode inverter also requires six steps, each of 60° duration, for completing one cycle of the output AC voltage. 
 Here it should be noted that step is nothing but the change in firing of one thyristor to the next thyristor in a proper sequence.The firing sequence for 120° Mode Inverter Operation is tabulated below.
 
-<center> <img src="images\Table 2.PNG " ></center>
-<center><b>Fig. 5 Conduction periods of various thyristors in 120° conduction mode</b></center><br>
+<center> <img src="images\Table 2.png " ></center>
+<center><b>Fig. 5 Conduction period of various thyristors in 120° conduction mode</b></center><br>
 
 It can be seen from the above table that each of the thyristor conducts for 120° duration only and it remains off for the next 60°. 
 This is different from 180° operation mode where each thyristor conducts for 180° duration,
@@ -188,7 +188,7 @@ T6 conducts. At ωt = 300°, T6 is turned ON. It also conducts for next 120° an
 The third row is also completed in the same manner, The table for firing sequence can be used to define the steps of the three phase inverter for its 120° mode operation. In Step-I, T1 & T6 should be gated, T1 & T2 for step-II, T2 & T3 for step-III and so on. 
 During each step, only two thyristors are conducting - one from the upper arm and another one from the lower arm.
 
-<center> <img src="images\Fig 4.PNG " style="transform: rotate(-0.8deg); height: 650px; width: 650px; -webkit-filter:contrast(180%);"></center>      
+<center> <img src="images\Fig 4.png " style="transform: rotate(-0.8deg); height: 650px; width: 650px; -webkit-filter:contrast(180%);"></center>      
 <center><b>Fig. 6 Equivalent circuit for 3-phase VSI 120° mode with balanced star-connected load.</b></center><br> 
 
 The circuit models for steps I-IV are shown in the Fig. 6, where load is assumed to be resistive and star connected. During step I, thyristor 6, 1 are conducting and 
@@ -242,7 +242,7 @@ $v_{bo} = 0$
 
 This procedure is followed to obtain load voltage for the remaning steps and these phase voltage are plotted in Fig. 7
 
-<center> <img src="images\Fig 5.PNG " style="width: 650px;"></center>       
+<center> <img src="images\Fig 5.png " style="width: 650px;"></center>       
 <center><b>Fig. 7 The Voltage waveform for 120° mode 3-phase VSI</b></center><br>
 
 **Formula of Line and Phase Voltage:**<br>
