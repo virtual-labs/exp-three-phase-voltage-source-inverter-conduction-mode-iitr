@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "A three-phase bridge inverter requires minimum of _____________ switching devices?",
 			"answers": {
@@ -52,7 +50,7 @@
 			"correctAnswer": "b"
 		}
 	]
-}
+
 
 
 

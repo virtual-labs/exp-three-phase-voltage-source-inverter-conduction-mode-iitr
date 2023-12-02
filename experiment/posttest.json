@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "If T1 is gated at 0°, T3 and T5 will start conducting at _______ and _________ ?",
 			"answers": {
@@ -52,4 +50,3 @@
 			"correctAnswer": "b"
 		}
 	]
-}

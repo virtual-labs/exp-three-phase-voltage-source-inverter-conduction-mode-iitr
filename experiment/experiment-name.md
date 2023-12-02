@@ -1,1 +1,1 @@
-## Three Phase VSI With 120° and 180° Conduction Mode
+## Three Phase VSI with 120° and 180° Conduction Mode
