@@ -1,0 +1,52 @@
+[
+	{
+		"question": "If T1 is gated at 0°, T3 and T5 will start conducting at _______ and _________ ?",
+		"answers": {
+			"a": "180°, 270°",
+			"b": "180°, 300°",
+			"c": "240°, 360°",
+			"d": "120°, 240°"
+		},
+		"correctAnswer": "d"
+	},
+	{
+		"question": "Safe commutation can be achieved in case of the ____________ operating mode?",
+		"answers": {
+			"a": "120°",
+			"b": "180°",
+			"c": "360°",
+			"d": "none of the above"
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"question": "A 3-phase inverter delivers power to a resistive load from a DC source Vs. For star connected load of R Ω per phase, the rms value of load current Ior for 180° conduction mode is ?",
+		"answers": {
+			"a": "Ior = 1/3(Vs/R)",
+			"b": "Ior = 1/(√2)(Vs/R)",
+			"c": "Ior = (√2)/3(Vs/R)",
+			"d": "Ior = 1/(3√2)(Vs/R)"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "The peak value of the line voltage in case of 120° mode of operation of a three-phase bridge inverter is?",
+		"answers": {
+			"a": "3Vs/2",
+			"b": "Vs/√2",
+			"c": "Vs",
+			"d": " Vs/2"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "A 3-phase inverter delivers power to a resistive load from a DC source Vs. For star connected load of R Ω per phase, the load power for 180° degree mode of operation is?",
+		"answers": {
+			"a": "2V²s/R W",
+			"b": "2/3V²s/R W",
+			"c": "V²s/R W",
+			"d": "V²s/2R W"
+		},
+		"correctAnswer": "b"
+	}
+]

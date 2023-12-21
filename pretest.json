@@ -1,0 +1,52 @@
+[
+	{
+		"question": "A three-phase bridge inverter requires minimum of _____________ switching devices?",
+		"answers": {
+			"a": "3",
+			"b": "4",
+			"c": "6",
+			"d": "8"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "In the 180° mode VSI, ___________ devices conduct at a time?",
+		"answers": {
+			"a": "5",
+			"b": "2",
+			"c": "3",
+			"d": "4"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"question": "What is the maximum line voltage value in case of a three-phase VSI in 180° mode?",
+		"answers": {
+			"a": "2Vs",
+			"b": "Vs",
+			"c": "3Vs",
+			"d": "2Vs/3"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"question": "A VSI will have a better performance if its ?",
+		"answers": {
+			"a": "load inductance is large and source inductance is small",
+			"b": "load inductance is small and source inductance is large",
+			"c": "both load inductance and source inductance are large",
+			"d": "both load inductance and source inductance are small"
+		},
+		"correctAnswer": "d"
+	},
+	{
+		"question": "In inverters, to make the supply voltage constant we use?",
+		"answers": {
+			"a": "Capacitor is connected in parallel to the load side",
+			"b": "Capacitor is connected in parallel to the supply side",
+			"c": "an inductor is placed in series with the load",
+			"d": "none of the above"
+		},
+		"correctAnswer": "b"
+	}
+]
