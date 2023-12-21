@@ -1,4 +1,12 @@
 
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
 ### **Introduction**
@@ -33,7 +41,7 @@ Current,
 
 <center>
 
-$ i_1 = \frac {V_s}{(Z+ \frac{Z}{2})} = \frac {2}{3} . \frac {V_s}{3}$
+$$i_1 = \frac {V_s} {\left(Z+ \frac{Z}{2}\right)} = \frac {2}{3} . \frac {V_s}{3}$$
 
 </center>
 
@@ -41,24 +49,24 @@ the line to neutral voltages are <br>
 
 <center>
 
-$v_{ao} = v_{co} = i_1 \frac {Z}{2} = \frac {V_s}{3}$ 
+$$v_{ao} = v_{co} = i_1 \frac {Z}{2} = \frac {V_s}{3}$$ 
 
 </center>
 
 <center>
 
-$v_{bo} = i_1 Z =  2\frac {V_s}{3}$ 
+$$v_{bo} = i_1 Z =  2\frac {V_s}{3}$$ 
 
 </center>
 
-The above line to neutral voltage may be written as $V_{ao} = V_{co}= V_s/3$ and $V_{bo} = -(2\frac {V_s}{3})$.<br>
+The above line to neutral voltage may be written as $V_{ao} = V_{co}= \frac {V_s}{3}$ and $V_{bo} = -\left(2\frac {V_s}{3}\right)$.<br>
 
 During step-II, $\frac{\pi} {3}$ &le; &omega;t < $2 \frac {\pi}{3}$, only 6, 1, and 2 thyristors are conducting.<br>
 Current,
 
 <center>
 
-$i_2 = \frac {2}{3} \frac{V_s}{Z}$
+$$i_2 = \frac {2}{3} \frac{V_s}{Z}$$
 
 </center>
 
@@ -66,12 +74,13 @@ So,
 
 <center>
 
-$v_{ao} = i_2 Z =  2\frac {V_s}{3}; v_{bo} = v_{co} = i_2 \frac {Z}{2} = \frac {V_s}{3}$
+$$v_{ao} = i_2 Z =  2\frac {V_s}{3}; v_{bo} = v_{co} = i_2 \frac {Z}{2} = \frac {V_s}{3}$$
 
 </center>
+
 <center>
 
-$v_{ao} = 2\frac {V_s}{3} ,  v_{bo} = v_{co} = - \frac {V_s}{3}$ 
+$$v_{ao} = 2\frac {V_s}{3} ,  v_{bo} = v_{co} = - \frac {V_s}{3}$$ 
 
 </center>
 
@@ -88,7 +97,7 @@ The Fourier analysis of output voltage can be described by the Fourier series as
 
 <center>
 
-$v_{ab} = \Sigma_{n=1, 3, 5...}^ \infty \frac {4V_s}{n \pi} cos (\frac {n \pi}{6}) sin \, n(\omega t +  \frac {\pi} {6})....(1)$
+$$v_{ab} = \Sigma_{n=1, 3, 5...}^ \infty \frac {4V_s}{n \pi} cos \left(\frac {n \pi}{6}\right) sin ~ n\left(\omega t +  \frac {\pi} {6}\right)....(1)$$
 
 </center>
 
@@ -96,21 +105,21 @@ Similarly,
 
 <center>
 
-$v_{bc} = \Sigma_{n=1, 3, 5...}^ \infty \frac {4V_s}{n \pi} cos (\frac {n \pi}{6}) sin \, n(\omega t -  \frac {\pi} {2})....(2)$
+$$v_{bc} = \Sigma_{n=1, 3, 5...}^ \infty \frac {4V_s}{n \pi} cos \left(\frac {n \pi}{6}\right) sin ~ n\left(\omega t -  \frac {\pi} {2}\right)....(2)$$
 
 </center>
 
 <center>
 
-$v_{ca} = \Sigma_{n=1, 3, 5...}^ \infty \frac {4V_s}{n \pi} cos (\frac {n \pi}{2}) sin \, n(\omega t +  \frac {5\pi} {6})....(3)$
+$$v_{ca} = \Sigma_{n=1, 3, 5...}^ \infty \frac {4V_s}{n \pi} cos \left(\frac {n \pi}{2}\right) sin ~ n\left(\omega t +  \frac {5\pi} {6}\right)....(3)$$
 
 </center>
 
-RMS value of <i>n</i>th component of line voltage is <br>
+RMS value of nth component of line voltage is <br>
 
 <center>
 
-$V_{Ln} = \frac {4V_s}{ \sqrt 2 n \pi}. cos  (\frac {n \pi}{6})....(4)$
+$$V_{Ln} = \frac {4V_s}{ \sqrt 2 n \pi}. cos  \left(\frac {n \pi}{6}\right)....(4)$$
 
 </center>
 
@@ -118,15 +127,15 @@ RMS value of fundamental line voltage is <br>
 
 <center>
 
-$V_{L1} =\frac {4V_s}{ \sqrt 2 \pi} . cos  (\frac {\pi}{6}) = 0.7797 V_s....(5)$
+$$V_{L1} =\frac {4V_s}{ \sqrt 2 \pi} . cos  \left(\frac {\pi}{6}\right) = 0.7797 V_s....(5)$$
 
-</center></p>
+</center>
 
 RMS value of line voltage is given by<br>
 
 <center>
 
-$V_L = \bigg[\frac {1}{\pi} \int _0^{\frac{2 \pi}{3}} V_s^2 . d( \omega t)\bigg]^{1/2} = 0.8165 V_s....(6)$
+$$V_L = \bigg[\frac {1}{\pi} \int _0^{\frac{2 \pi}{3}} V_s^2 . d( \omega t)\bigg]^{1/2} = 0.8165 V_s....(6)$$
 
 </center>
 
@@ -134,7 +143,7 @@ RMS value of phase voltage is <br>
 
 <center>
 
-$V_{p} = \frac {V_L}{ \sqrt 3} = \frac { \sqrt 2}{3} V_s = 0.4714 V_s....(7)$
+$$V_{p} = \frac {V_L}{ \sqrt 3} = \frac { \sqrt 2}{3} V_s = 0.4714 V_s....(7)$$
 
 </center>
 
@@ -142,7 +151,7 @@ RMS value of fundamental phase voltage is <br>
 
 <center>
 
-$V_{p1} = \frac {2V_s}{\sqrt 2 \pi} = 0.4502 V_s....(8)$
+$$V_{p1} = \frac {2V_s}{\sqrt 2 \pi} = 0.4502 V_s....(8)$$
 
 </center>
 
@@ -189,7 +198,7 @@ The third row is also completed in the same manner, The table for firing sequenc
 During each step, only two thyristors are conducting - one from the upper arm and another one from the lower arm.
 
 <center> <img src="images\Fig 4.png " style="transform: rotate(-0.8deg); height: 650px; width: 650px; -webkit-filter:contrast(180%);"></center>      
-<center><b>Fig. 6 Equivalent circuit for 3-phase VSI 120° mode with balanced star-connected load.</b></center><br> 
+<center><b>Fig. 6 Equivalent circuit for 3-phase VSI 120° mode with balanced star-connected load</b></center><br> 
 
 The circuit models for steps I-IV are shown in the Fig. 6, where load is assumed to be resistive and star connected. During step I, thyristor 6, 1 are conducting and 
 and as such load terminal  <I>a</I> is connected to positive bus of dc source whereas terminal  <I>b</I> is connected to negative bus od dc source. Load terminal  <i>c</i> is not connected to dc bus. The line to neutral voltage are 
@@ -197,14 +206,15 @@ and as such load terminal  <I>a</I> is connected to positive bus of dc source wh
 
 <center>
 
-$v_{ao} = \frac {V_s}{2}$, $v_{ob} = \frac {V_s}{2}$
+$$v_{ao} = \frac {V_s}{2}, v_{ob} = \frac {V_s}{2}$$
 
 </center>
 
 or
+
 <center>
 
-$v_{bo} = \frac {-V_s}{2}$
+$$v_{bo} = \frac {-V_s}{2}$$
 
 </center>
 
@@ -212,7 +222,7 @@ and
 
 <center>
 
-$v_{co} = 0$
+$$v_{co} = 0$$
 
 </center>
 
@@ -220,7 +230,7 @@ For step II, thyristor 1, 2 conduct and load terminal  <I>a</I> is connected to 
 
 <center>
 
-$v_{ao} = \frac {V_s}{2}$
+$$v_{ao} = \frac {V_s}{2}$$
 
 </center>
 
@@ -228,7 +238,7 @@ or
 
 <center>
 
-$v_{co} = -\frac {V_s}{2}$
+$$v_{co} = -\frac {V_s}{2}$$
 
 </center>
 
@@ -236,7 +246,7 @@ and
 
 <center>
 
-$v_{bo} = 0$
+$$v_{bo} = 0$$
 
 </center>
 
@@ -250,7 +260,7 @@ The Fourier analysis of phase voltage waveform v<sub>ao</sub> is
 
 <center>
 
-$v_{ao} = \Sigma_{n=1, 3, 5...}^ \infty \frac {2V_s}{n \pi} cos (\frac {n \pi}{6}) sin \, n(\omega t +  \frac {\pi} {6})....(9)$
+$$v_{ao} = \Sigma_{n=1, 3, 5...}^ \infty \frac {2V_s}{n \pi} cos \left(\frac {n \pi}{6}\right) sin ~ n\left(\omega t +  \frac {\pi} {6}\right)....(9)$$
 
 </center>
 
@@ -258,13 +268,13 @@ Similarly,
 
 <center>
 
-$v_{bo} = \Sigma_{n=1, 3, 5...}^ \infty \frac {2V_s}{n \pi} cos (\frac {n \pi}{6}) sin \, n(\omega t -  \frac {\pi} {2})....(10)$
+$$v_{bo} = \Sigma_{n=1, 3, 5...}^ \infty \frac {2V_s}{n \pi} cos \left(\frac {n \pi}{6}\right) sin ~ n\left(\omega t -  \frac {\pi} {2}\right)....(10)$$
 
 </center>
 
 <center>
 
-$v_{co} = \Sigma_{n=1, 3, 5...}^ \infty \frac {2V_s}{n \pi} cos (\frac {n \pi}{5}) sin \, n(\omega t +  \frac {5\pi} {6})....(11)$
+$$v_{co} = \Sigma_{n=1, 3, 5...}^ \infty \frac {2V_s}{n \pi} cos \left(\frac {n \pi}{5}\right) sin ~ n\left(\omega t +  \frac {5\pi} {6}\right)....(11)$$
 
 </center>
 
@@ -272,7 +282,7 @@ The Fourier analysis of line voltage waveform v<sub>ab</sub> is <br>
 
 <center>
 
-$V_{ab} = \Sigma_{n=6k \pm 1}^\infty \frac {3V_s}{n \pi}. sin \,n  (\omega t + \frac {\pi}{3}) ....(12)$
+$$V_{ab} = \Sigma_{n=6k \pm 1}^\infty \frac {3V_s}{n \pi}. sin ~ n  \left(\omega t + \frac {\pi}{3}\right) ....(12)$$
 
 </center>
 
@@ -283,7 +293,7 @@ RMS Value of fundamental phase voltage is <br>
 
 <center>
 
-$V_{p1} = \frac {2V_s}{\sqrt 2 \pi} . cos  (\frac {\pi}{6}) = 0.3898 V_s....(13)$
+$$V_{p1} = \frac {2V_s}{\sqrt 2 \pi} . cos  \left(\frac {\pi}{6}\right) = 0.3898 V_s....(13)$$
 
 </center>
 
@@ -291,7 +301,7 @@ RMS value of phase voltage is <br>
 
 <center>
 
-$V_p = \bigg[ \frac {1}{ \pi} \int_0^{\frac {2 \pi}{3}} \bigg(\frac {V_s}{2}\bigg)^2 . d(\omega t) \bigg]^{1/2} = 0.4082 V_s....(14)$
+$$V_p = \bigg[ \frac {1}{ \pi} \int_0^{\frac {2 \pi}{3}} \bigg(\frac {V_s}{2}\bigg)^2 . d(\omega t) \bigg]^{1/2} = 0.4082 V_s....(14)$$
 
 </center>
 
@@ -299,7 +309,7 @@ RMS value of fundamental line voltage is
 
 <center>
 
-$V_{L1} = \frac {3V_s}{ \sqrt 2 \pi } = 0.6752 V_s = \sqrt 3 V_{p1}....(15)$
+$$V_{L1} = \frac {3V_s}{ \sqrt 2 \pi } = 0.6752 V_s = \sqrt 3 V_{p1}....(15)$$
 
 </center>
 
@@ -307,7 +317,7 @@ RMS value of line voltage is
 
 <center>
 
-$V_L = \sqrt 3  V_p = \frac  {V_s}{\sqrt 2} = 0.7071 V_s....(16)$
+$$V_L = \sqrt 3  V_p = \frac  {V_s}{\sqrt 2} = 0.7071 V_s....(16)$$
 
 </center>
 
