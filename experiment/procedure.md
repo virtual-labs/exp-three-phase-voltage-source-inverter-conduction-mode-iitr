@@ -14,12 +14,12 @@
 <b>STEP 3:</b> Click on the <b>CHECK</b> button to check the connections.<br /><br />
 <b>Note: Right click on the component to open the dialog box to edit the properties of the component.</b><br /><br />
 <b>STEP 4:</b> <b> For 120° Conduction mode</b> Input the values for all the required components <b>(DC Source and Gate Pulses)</b> and the waveform will get plot automatically.<br><br />
-GP1 - 0° to 120°, GP3 - 120° to 240°, GP5 - 240° to 360°, GP4 - 180° to 300°, GP6 - 300° to 420°, GP2 - 60° to 180°.<br /><br />
+<b>GP1 - </b> 0° to 120°, <b>GP3 -</b> 120° to 240°, <b>GP5 -</b> 240° to 360°, <b>GP4 -</b> 180° to 300°, <b>GP6 -</b> 300° to 420°, <b>GP2 -</b> 60° to 180°.<br /><br />
 <b>STEP 5:</b> Now, Click on the <b>ADD</b> button to insert the reading into the observation table.<br /><br />
 <b>STEP 6:</b> Now, you can input different values as per your requirement to get the desired waveform.<br /><br />
 <b>STEP 7:</b> Repeat <b>Step 5</b> to again insert the reading into the table and now repeat <b>Steps 6 to 7</b> to take more readings.<br /><br />
-<b><b>STEP 8: </b>For 180° Conduction mode </b>Input the values for all the required components <b>(DC Source and GatePulses)</b> and the waveform will get plot automatically.<br /><br />
-GP1 - 0° to 180°, GP3 - 120° to 300°, GP5 - 240° to 420°, GP4 - 180° to 360°, GP6 - 300° to 480°, GP2 - 60° to 240°.<br /><br />
+<b>STEP 8:</b> <b>For 180° Conduction mode </b>Input the values for all the required components <b>(DC Source and GatePulses)</b> and the waveform will get plot automatically.<br /><br />
+<b>GP1 -</b> 0° to 180°, <b>GP3 -</b> 120° to 300°, <b>GP5 -</b> 240° to 420°, <b>GP4 -</b> 180° to 360°, <b>GP6 -</b> 300° to 480°, <b>GP2 -</b> 60° to 240°.<br /><br />
 <b>STEP 9:</b> Now, Repeat <b>Steps 5 to 7</b>.<br><br>
 <b>STEP 10:</b> Click on the <b>PRINT</b> button to take out the print of the webpage.<br /><br />
 <b>STEP 11:</b> Click on the <b>RESET</b> button to reload the webpage.
